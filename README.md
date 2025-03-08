@@ -70,14 +70,36 @@ This simple example demonstrates the core MCP concepts:
 - Tool execution
 - Structured input/output
 
-## Use Cases
+## How to use it with Claude?
 
-This implementation can be used as:
+1. Install Claude and go to: File -> Settings
 
-- A learning resource for developers new to MCP
-- A starting point for building more complex MCP servers
-- A testing tool for AI assistants that implement MCP client capabilities
-- A reference implementation for the MCP specification
+<img width="285" alt="image" src="https://github.com/user-attachments/assets/061f6fc5-5ab6-4a44-a7bb-b38347c638aa" />
+
+2. Switch to developer tab
+
+<img width="573" alt="image" src="https://github.com/user-attachments/assets/737f8d8a-6503-4c14-bf59-331584e37a9b" />
+
+3. Click: Edit Config and paste below json (update your path)
+
+```json
+{
+  "mcpServers": {
+    "hello-world": {
+      "command": "node",
+      "args": [
+        "D:\\github\\mcp-hello_world\\src\\index.mjs"
+      ]
+    }
+  }
+}
+```
+
+4. Diagnose here:
+
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/6fe604a9-caee-4346-9736-17f3924dba51" />
+
+*** Do not use console.log inside MCP with stdio mode it interfere with the Claude, instead use console.error that goes to log file. ***
 
 ## License
 
