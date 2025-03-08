@@ -116,5 +116,4 @@ The MCP Hello World repository is licensed under the MIT License.
 ## Further Resources
 
 - [MCP GitHub Repository](https://github.com/modelcontextprotocol/protocol)
-- [MCP Documentation](https://modelcontextprotocol.ai/)
 - [MCP SDK Package](https://www.npmjs.com/package/@modelcontextprotocol/sdk)
