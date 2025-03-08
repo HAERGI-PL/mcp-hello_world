@@ -1,4 +1,4 @@
-# MCP Hello World
+# MCP Hello World for Claude
 
 A simple, easy-to-understand implementation of the Model Context Protocol (MCP) using JavaScript ES Modules.
 
