@@ -95,11 +95,15 @@ This simple example demonstrates the core MCP concepts:
 }
 ```
 
+4. The output:
+
+<img width="558" alt="image" src="https://github.com/user-attachments/assets/360d74cb-a8b3-43f7-b5fc-fd1c7338264c" />
+
 4. Diagnose here:
 
 <img width="231" alt="image" src="https://github.com/user-attachments/assets/6fe604a9-caee-4346-9736-17f3924dba51" />
 
-Look also here:
+Logs are here:
 
 C:\Users\<your-login>\AppData\Roaming\Claude\logs
 
