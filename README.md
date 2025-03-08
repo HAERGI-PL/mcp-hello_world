@@ -99,7 +99,11 @@ This simple example demonstrates the core MCP concepts:
 
 <img width="231" alt="image" src="https://github.com/user-attachments/assets/6fe604a9-caee-4346-9736-17f3924dba51" />
 
-*** Do not use console.log inside MCP with stdio mode it interfere with the Claude, instead use console.error that goes to log file. ***
+Look also here:
+
+C:\Users\<your-login>\AppData\Roaming\Claude\logs
+
+**Do not use console.log inside MCP with stdio mode it interfere with the Claude, instead use console.error that goes to log file.**
 
 ## License
 
