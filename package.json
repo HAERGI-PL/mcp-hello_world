@@ -1,0 +1,15 @@
+{
+  "name": "mcp-hello_world",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "license": "MIT",
+  "description": "Hello World MCP server",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "zod": "^3.22.4"
+  }
+}
